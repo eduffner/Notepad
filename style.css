@@ -8,6 +8,9 @@ body {
 .note-summary {
     border-top: solid 1px #6495ED;
 }
+.note-selected {
+    font-weight: bold;
+}
 a:hover, a:visited, a:link, a:active {
 	color: #000;
 	text-decoration: none;

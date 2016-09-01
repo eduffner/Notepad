@@ -1,3 +1,4 @@
+//variable holding the note objects
 var notepad = {
     notes: [],
     selectedId: null
@@ -5,6 +6,7 @@ var notepad = {
 
 var nextNodeId = 1;
 
+//function to create new notes and increment the note id and keep track of which note is selected
 var onAddNote = function () {
     var note = {id: nextNodeId, content: ''};
     nextNodeId++;
